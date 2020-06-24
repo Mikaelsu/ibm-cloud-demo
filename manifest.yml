@@ -1,0 +1,6 @@
+applications:
+  - name: vaadin-demo
+    instances: 1
+    memory: 2G
+    buildback: java_buildpack
+    path: target/my-starter-project-1.0-SNAPSHOT.jar
